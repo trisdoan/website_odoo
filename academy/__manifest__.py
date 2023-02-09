@@ -20,7 +20,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['website_sale', 'mail'],
+    'depends': ['website_sale','website','base', 'mail'],
 
     # always loaded
     'data': [
@@ -28,7 +28,6 @@
         "views/templates.xml",
         "views/academy_menus.xml",
         "views/academy_views.xml",
-        "data/data.xml",
     ],
     # only loaded in demonstration mode
     'demo': [
