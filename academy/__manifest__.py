@@ -20,12 +20,15 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['website_sale', 'mail'],
 
     # always loaded
     'data': [
         'security/ir.model.access.csv',
-        "templates.xml",
+        "views/templates.xml",
+        "views/academy_menus.xml",
+        "views/academy_views.xml",
+        "data/data.xml",
     ],
     # only loaded in demonstration mode
     'demo': [
